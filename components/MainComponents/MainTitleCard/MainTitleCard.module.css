@@ -1,0 +1,48 @@
+.wrapper{
+    min-width: 587px;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+}
+.title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #F5F5F5;
+}
+.lozung{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #F5F5F5;
+}
+.copyRight{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #F5F5F5;
+}
+@media (max-width:480px) {
+    .wrapper{
+        padding-left: 24px;
+justify-content: center;
+    }
+    .logo{
+        opacity: 0;
+    }
+    .copyRight{
+        display: none;
+    }
+    .lozung{
+        margin-top: 60px;
+    }
+}
+

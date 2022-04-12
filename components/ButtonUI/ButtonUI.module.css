@@ -1,0 +1,32 @@
+.button{
+    border: none;
+
+}
+.outlined{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background: #FFFFFF;
+border: 1px solid #80868C;
+box-sizing: border-box;
+border-radius: 9px;
+
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #000D1A;
+width: 300px;
+height: 56px;
+}
+
+.noBorder{
+    border: none;
+    width: 260px;
+    height: 56px;
+    
+    background: #FFFFFF;
+    border-radius: 9px;
+}
+.withIcon{
+    margin-right: 16px;
+}

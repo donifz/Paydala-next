@@ -1,0 +1,48 @@
+.wrapper{
+    background: #F4F6F8;
+    width: 640px;
+    height: 230px;
+    /* padding: 40px; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.textBlock{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 220px;
+    margin: 40px;
+    
+}
+.title{
+    width: 220px;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #000D1A;
+
+}
+.description{
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #4D565F;
+
+}
+.link{
+ font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+color: #FF6B12;
+}
+.cardImg{
+width: 309px;
+height: 316px;
+}
+.cardImg img{
+max-width: 100%;
+max-height: 100%;
+}

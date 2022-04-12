@@ -1,0 +1,134 @@
+
+
+.polygonsTop{
+    width:  414px;
+    height: 6.64px;
+    background-image: url('../../public/polygons.svg');
+}
+.body{
+    width: 414px;
+    height: 520px;
+
+    background: #F4F6F8;
+
+}
+.polygonsBottom{
+    width:  414px;
+    height: 6.64px;
+    transform: rotate(180deg);
+    background-image: url('../../public/polygons.svg');
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.company{
+    height: 108px;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.companyBlock{
+    display: flex;
+    height: 60px;
+}
+
+.companyText{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.companyText p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #000D1A;
+}
+.statusColor{
+    display: flex;
+    align-items: center;
+    width: 414px;
+    height: 71px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #EAAC50;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+.paymentInfo{
+    padding: 24px;
+}
+.totals{
+    display: flex;
+    align-items: center;
+    height: 106px;
+    border-bottom: 1px solid #C4C4C4;
+}
+.amount{
+    margin-right: 24px;
+    width: 171px;
+    display: flex;
+    flex-direction: column;
+}
+.amount .amountTitle{
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #4D565F;
+}
+.commission{
+    width: 171px;
+    display: flex;
+    flex-direction: column;
+}
+.commission .commissionTitle{
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #4D565F;
+}
+.commission .commissionMoney{
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #000D1A;
+}
+.amount .amountMoney{
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #000D1A;
+}
+.details{
+   margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detailsLine{
+    margin-bottom: 16px;
+    display: flex;
+}
+.detailsLabel{
+    width: 171px;
+    margin-right: 24px;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #4D565F;
+}
+.detailsInfo{
+    width: 171px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000D1A;
+}

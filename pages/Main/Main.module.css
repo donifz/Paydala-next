@@ -1,0 +1,79 @@
+.wrapperDesktop{
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.wrapperMobile{
+    display: none;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 479.99px) {
+    .wrapperDesktop{
+        display: none;
+    }
+    .wrapperMobile{
+        padding-top: 88px;
+        padding-bottom: 88px;
+        background-color: black;
+        display: flex;
+    }
+    .mobileLogo{
+        
+       
+        padding-left: 24px;
+        display: flex;
+        align-items: center;
+        height: 88px;
+        z-index: 100;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: black;
+    }
+    .footer{
+        
+        display: flex;
+        /* display: none; */
+        align-items: center;
+        height: 88px;
+        z-index: 100;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #F5F5F5;
+    padding-left: 24px;
+    }
+   
+    .copyRight{
+        min-width: 120px;
+        margin-right: 80px;
+          }
+         
+ 
+  
+}
+@media (min-width: 480px) {
+    .wrapperDesktop{
+        display: flex;
+    }
+    .wrapperMobile{
+        display: none;
+    }
+
+ 
+  
+}

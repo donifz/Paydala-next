@@ -1,0 +1,73 @@
+.wrapper{
+    margin-top: 40px;
+padding: 40px;
+width: 640px;
+height: 326px;
+background: #F4F6F8;
+}
+.title{
+    margin-bottom: 24px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000D1A;
+
+}
+.description{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+    
+    
+    color: #4D565F;
+
+}
+.buttonLabel{
+    font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #000D1A;
+}
+.checkButton{
+    outline: none;
+    border: none;
+    width: 260px;
+height: 56px;
+
+
+background: #FFFFFF;
+border-radius: 9px;
+font-weight: 500;
+font-size: 16px;
+color: #80868C;
+}
+.numberInput{
+    padding-left:40px ;
+    padding-right:40px ;
+    text-align: center;
+ width: 560px;
+height: 56px;
+background: #FFFFFF;
+border: 2px solid #80868C;
+border-radius: 9px;
+font-weight: 700;
+font-size: 18px;
+}
+
+.line{
+   border: 1px solid #000D1A2E;
+   margin: 0;
+   margin-bottom: 24px;
+}
+.buttonBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

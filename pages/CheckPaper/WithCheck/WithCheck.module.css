@@ -1,0 +1,7 @@
+.wrapper{
+    margin: 40px 60px ;
+}
+.checkBlock{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,514 @@
+.support{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/design/headset-callcenter-office@2x-1024x683.0188cb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+ 
+}
+.terminal{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/a0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.kassa{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/design/kassa.8de9a1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.payment{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/design/money.d61236.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.internet{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/design/note.8c8877.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.agrigation{
+
+    min-width: 453px;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex: 33% 33% 33%;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #000000;
+    border-left: 1px solid #F5F5F5;
+    color: #F5F5F5;
+
+    background-image: url('../../../public/design/brands.6a54b9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 2000px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
+
+.title{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    /* identical to box height */
+    
+}
+.subtitle{
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    
+
+}
+
+
+.icon svg path {
+    fill: #ffffff;
+    width: 50px;
+    height: 50px;
+}
+.imgBlock{
+
+    /* identical to box height */
+}
+.menu ul li{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 16px;
+    /* identical to box height, or 129% */
+
+}
+.titleBlock{
+    display:flex ;
+}
+
+.support:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.support .mainText .icon {
+    background-image: url('../../../public/icons/settingLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.support:hover  .mainText .icon {
+    background-image: url('../../../public/icons/SettingBlack.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.support:hover{
+    background-color: #F6F6F6;
+    color: #000000;
+}
+
+.support:hover{
+    opacity: 1;
+    background-image: url('../../../public/design/headset-callcenter-office@2x-1024x683.0188cb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+/* terminal */
+.terminal:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.terminal .mainText .icon {
+    background-image: url('../../../public/icons/TerminalLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.terminal:hover  .mainText .icon {
+    background-image: url('../../../public/icons/Terminal.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.terminal:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.terminal:hover{
+    opacity: 1;
+    background-image: url('../../../public/a0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
+/* kassa */
+.kassa:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.kassa .mainText .icon {
+    background-image: url('../../../public/icons/KassLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.kassa:hover  .mainText .icon {
+    background-image: url('../../../public/icons/kassa.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.kassa:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.kassa:hover{
+    opacity: 1;
+    background-image: url('../../../public/design/kassa.8de9a1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+
+}
+
+
+/* payment */
+.payment:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.payment .mainText .icon {
+    background-image: url('../../../public/icons/paymentLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.payment:hover  .mainText .icon {
+    background-image: url('../../../public/icons/payment.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.payment:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.payment:hover{
+    opacity: 1;
+    background-image: url('../../../public/design/money.d61236.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
+/* internet */
+.internet:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.internet .mainText .icon {
+    background-image: url('../../../public/icons/internetLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.internet:hover  .mainText .icon {
+    background-image: url('../../../public/icons/internet.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.internet:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.internet:hover{
+    opacity: 1;
+    background-image: url('../../../public/design/note.8c8877.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+
+
+/* agrigation */
+.agrigation:hover  .mainText> .titleBlock {
+    transform: translateY(-20px);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.agrigation .mainText .icon {
+    background-image: url('../../../public/icons/agrigationLight.svg');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+
+}
+
+.agrigation:hover  .mainText .icon {
+    background-image: url('../../../public/icons/agrigation.svg');
+    width: 36px;
+    height: 36px;
+
+}
+
+.agrigation:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+.agrigation:hover{
+    opacity: 1;
+    background-image: url('../../../public/design/brands.6a54b9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+@media (max-width:480px) {
+
+
+    .support,
+.terminal,
+.kassa,
+.payment,
+.internet,
+.agrigation{
+    background-color: #F5F5F5;
+    color: #000000;
+    min-width: 335px;
+    min-height: 100%;
+    padding-top: 99px ;
+}
+.none{
+    /* display: none; */
+    opacity: 0;
+    width: 1;
+
+}
+.logo{
+    display: none;
+}
+
+.support{
+
+    background-image: url('../../../public/design/headset-callcenter-office@2x-1024x683.0188cb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+
+}
+
+.terminal{
+
+    background-image: url('../../../public/a0.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: #fff;
+}
+.kassa{
+
+    background-image: url('../../../public/design/kassa.8de9a1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: #fff;
+
+}
+.payment{
+
+    background-image: url('../../../public/design/money.d61236.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: #fff;
+}
+.internet{
+
+    background-image: url('../../../public/design/note.8c8877.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: #fff;
+}
+.agrigation{
+
+    background-image: url('../../../public/design/brands.6a54b9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: #fff;
+}
+
+.support  .mainText .icon {
+    background-image: url('../../../public/icons/SettingBlack.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+.terminal  .mainText .icon {
+    background-image: url('../../../public/icons/Terminal.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+.kassa  .mainText .icon {
+    background-image: url('../../../public/icons/kassa.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+
+.payment  .mainText .icon {
+    background-image: url('../../../public/icons/payment.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+.internet  .mainText .icon {
+    background-image: url('../../../public/icons/internet.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+
+.agrigation  .mainText .icon {
+
+    background-image: url('../../../public/icons/agrigation.svg');
+    min-width: 36px;
+    height: 36px;
+
+}
+
+    
+}
+
+@media (max-width:480px) {
+    
+}
