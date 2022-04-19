@@ -2,10 +2,11 @@ import React from 'react'
 import styles from './MainHeader.module.css'
 import Image from 'next/image'
 import Logo from '../../public/LogoPaydala.svg'
+import cn from 'classnames'
 
-const MainHeader = () => {
+const MainHeader = ({ classname, ...props }) => {
   return (
-    <div className={styles.wrapper}>
+    <div {...props} className={cn(styles.wrapper, classname)} >
       <div className={styles.logo}><Image src={Logo} /></div>
       <nav className={styles.nav}>
         <ul className={styles.menu} >

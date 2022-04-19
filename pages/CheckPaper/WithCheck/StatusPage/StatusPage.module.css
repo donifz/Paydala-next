@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.buttonsBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.button{
+margin-right: 40px;
+margin-bottom:16px;
+
+}
+.button:last-child{
+    margin: 0;
+    margin-bottom:16px;
+}
+@media (max-width:480px) {
+    .wrapper{
+        padding: 24px;
+    }
+    .buttonsBlock{
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+    .button{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+}
+

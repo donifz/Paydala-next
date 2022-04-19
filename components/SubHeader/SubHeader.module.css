@@ -4,6 +4,7 @@
     height: 72px;
     display: flex;
     align-items: center;
+
 }
 .nav {
     min-height: 100%;
@@ -32,4 +33,12 @@
 .logo{
 
     margin-right: 60px;
+}
+
+@media (max-width:480px) {
+
+    .wrapper{
+        overflow-x: scroll;
+    }
+    
 }

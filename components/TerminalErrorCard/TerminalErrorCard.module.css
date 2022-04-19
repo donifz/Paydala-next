@@ -54,3 +54,24 @@ align-items: center;
     color: #fff;
     text-align: center;
 }
+
+@media (max-width:480px) {
+    .wrapper{
+        flex-direction: column;
+        width: 340px;
+        height: 100%;
+    }
+    .cardImg{
+        order: 1;
+    }
+    .textBlock{
+        order: 2;
+        margin: 16px;
+    }
+    .title{
+        margin-bottom: 16px;
+    }
+    .description{
+    margin-bottom: 24px;
+    }
+}

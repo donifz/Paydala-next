@@ -35,3 +35,14 @@
 
     margin-right: 60px;
 }
+
+@media (max-width:480px) {
+    .logo{
+        display: none;
+    }
+    .wrapper{
+        overflow-x: scroll;
+    }
+   
+    
+}

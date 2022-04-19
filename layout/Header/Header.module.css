@@ -3,3 +3,53 @@
     padding-right: 60px;
     box-shadow: 0px 4px 25px rgba(20, 20, 20, 0.1);
 }
+.mobileLogoHeader{
+    display: none;
+}
+/* @media (max-width:768px) {
+    .mobileLogoHeader{
+        display: block;
+        height: 56px;
+        width: 100%;
+    }
+    .mainHeader{
+        background-color: blueviolet;
+    }
+    .subHeader{
+        display: none !important;
+    }
+ 
+.header{
+    padding-left: 24px;
+    overflow-x: scroll ;
+}   
+} */
+@media (max-width:480px) {
+    .mobileLogoHeader{
+        height: 56px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .mobileLogoHeader >img{
+     
+        
+    }
+    .mainHeader{
+        display: none !important;
+    }
+    .subHeader{
+        display: none !important;
+    }
+ 
+.header{
+    
+    padding-left: 24px;
+    overflow-x: scroll ;
+}   
+
+.logo{
+    margin-left: 80px;
+}
+}

@@ -11,6 +11,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
+    margin-bottom: 16px;
     color: #000D1A;
 }
 .subtitle{
@@ -28,4 +29,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (max-width:480px) {
+    .wrapper{
+    margin-top: 24px;
+        padding: 24px;
+        
+    }
+    .iconBlock{
+        min-width: 96px;
+        min-height: 96px;
+    }
+    .textBlock{
+        justify-content: center;
+    }
+    .title{
+        font-size: 18px;
+    }
 }

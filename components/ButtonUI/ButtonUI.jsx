@@ -4,9 +4,9 @@ import React from 'react'
 import styles from './ButtonUI.module.css'
 import Image from 'next/dist/client/image'
 
-const ButtonUI = ({ children, variant, icon, className, ...props }) => {
+const ButtonUI = ({ children, variant, icon, classname, ...props }) => {
     return (
-        <button className={cn({ [styles.outlined]: variant === 'outlined', [styles.noBorder]: variant === "default" },)}
+        <button className={cn(classname, { [styles.outlined]: variant === 'outlined', [styles.noBorder]: variant === "default" },)}
             {...props}>
             {icon && <div className={styles.withIcon}>
                 <Image src={icon} />

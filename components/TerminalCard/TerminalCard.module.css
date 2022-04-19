@@ -46,3 +46,25 @@ height: 316px;
 max-width: 100%;
 max-height: 100%;
 }
+
+@media (max-width:480px) {
+    .wrapper{
+        flex-direction: column;
+        width: 340px;
+        height: 100%;
+    }
+    .cardImg{
+        order: 1;
+        height: 100%;
+    }
+    .textBlock{
+        order: 2;
+        margin: 16px;
+    }
+    .title{
+        margin-bottom: 16px;
+    }
+    .description{
+    margin-bottom: 24px;
+    }
+}

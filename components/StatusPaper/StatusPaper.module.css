@@ -1,4 +1,6 @@
-
+.wrapper{
+    margin-bottom: 60px;
+}
 
 .polygonsTop{
     width:  414px;
@@ -58,10 +60,9 @@
     height: 71px;
     padding-left: 24px;
     padding-right: 24px;
-    background: #EAAC50;
+
     font-weight: 500;
     font-size: 20px;
-
     color: #FFFFFF;
 }
 .paymentInfo{
@@ -70,8 +71,9 @@
 .totals{
     display: flex;
     align-items: center;
-    height: 106px;
+    height: 58px;
     border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 24px;
 }
 .amount{
     margin-right: 24px;
@@ -82,7 +84,7 @@
 .amount .amountTitle{
     font-weight: 400;
     font-size: 16px;
-
+    margin-bottom: 16px;
     color: #4D565F;
 }
 .commission{
@@ -93,7 +95,7 @@
 .commission .commissionTitle{
     font-weight: 400;
     font-size: 16px;
-
+    margin-bottom: 16px;
     color: #4D565F;
 }
 .commission .commissionMoney{
@@ -131,4 +133,57 @@
     font-weight: 500;
     font-size: 16px;
     color: #000D1A;
+}
+
+.successColor{
+    background: #00A755;
+}
+.failedColor{
+ 
+    background: #C84F4F;
+}
+.inProcess{
+    background: #EAAC50;
+}
+
+
+
+@media (max-width:480px) {
+    .wrapper{
+        
+    }
+    .body{
+        width: 327px;
+    }
+    .polygonsTop,
+.polygonsBottom{
+    width: 327px;
+}
+.statusColor{
+    width: 100%;
+}
+.paymentInfo{
+    padding: 16px;
+}
+.company{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.totals{
+
+}
+.detailsLabel{
+    width: 135px
+
+    }
+    .detailsInfo{
+        width: 120px;
+    }
+    .detailsLine{
+        display: flex;
+
+    }
+    .details{
+        align-items: stretch;
+    }
 }

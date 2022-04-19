@@ -26,3 +26,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width:480px) {
+    .wrapper{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .checkCardBlock{
+        flex-direction: column;
+    }
+}

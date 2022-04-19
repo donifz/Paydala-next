@@ -14,10 +14,23 @@ const WithCheck = () => {
             <PageTitleCard title='Проверка по чеку ' subtitle='Введите номер чека или сканируйте чек камерой' icon={Icon} />
             <div className={styles.checkBlock}>
                 <CheckByNumber />
-                <CheckByQr /></div>
-            <StatusPage />
+                <CheckByQr />
+                {/* {data.map((item) => {
+                    return <p key={item.id}>{item.title}</p>
+                })} */}
+            </div>
+            {/* <StatusPage /> */}
         </div>
     )
 }
 
 export default LayoutHoc(WithCheck)
+
+// export async function getStaticProps() {
+//     // Fetch data from external API
+//     const res = await fetch(`https://jsonplaceholder.typicode.com/todos`)
+//     const data = await res.json()
+
+//     // Pass data to the page via props
+//     return { props: { data } }
+// }

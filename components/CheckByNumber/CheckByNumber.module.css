@@ -71,3 +71,29 @@ font-size: 18px;
     justify-content: space-between;
     align-items: center;
 }
+
+@media(max-width:480px) {
+    .preWrapper{
+        padding: 24px;
+    }
+    .wrapper{
+        width: 100%;
+        padding: 24px 16px;
+    }    
+    .buttonBlock{
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .numberInput {
+        width: 100%;
+    }
+    .buttonLabel{
+        
+        order: 2;
+    }
+    .checkButton{
+        min-width: 100%;
+        margin-bottom: 16px;
+        order:1
+    }
+}

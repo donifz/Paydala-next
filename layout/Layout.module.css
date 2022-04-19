@@ -1,6 +1,7 @@
 .wrapper{
+   
 
 }
 .header{
-    height: 144px;
+    max-height: 144px;
 }

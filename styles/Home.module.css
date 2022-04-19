@@ -1,6 +1,0 @@
-.wrapper{
-    margin: 40px 60px;
-    display: grid;
-    grid-template-columns:  repeat(auto-fit, minmax(640px, 1fr));
-    grid-gap: 40px;
-  }
