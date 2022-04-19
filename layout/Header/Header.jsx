@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './header.module.css'
+import styles from './Header.module.css'
 import cn from 'classnames'
 import Image from 'next/image'
 import MainHeader from '../../components/MainHeader/MainHeader'
